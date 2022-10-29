@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.ClassMaster {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    padding: 2px;
+    height: 80vh;
+}
+
+.ClassMaster .welcome-top .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.ClassMaster .welcome-top .form-group label {
+    color: #000000bf;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.ClassMaster .ClassMastertable {
+    height: 377px;
+    overflow: auto;
+}
+
+.ClassMaster .ClassMastertable::-webkit-scrollbar {
+    width: 12px;
+}
+
+.ClassMaster .ClassMastertable::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.253)
+}
+
+.ClassMaster .ClassMastertable::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.ClassMaster .ClassMastertable h1 {
+    font-size: 16px;
+    background-color: #36304a;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 36px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.ClassMaster .ClassMastertable h1 {
+    background: #36304a;
+    position: sticky;
+    top: 0;
+    white-space: nowrap;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.ClassMaster .ClassMastertable tr {
+    text-align: left;
+}
+
+.ClassMaster .ClassMastertable tr a {
+    color: rgb(0 0 0 / 65%);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    .ClassMaster {
+        height: auto;
+    }
+}

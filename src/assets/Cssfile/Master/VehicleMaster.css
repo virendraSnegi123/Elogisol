@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.VehicleMaster {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    padding: 2px;
+}
+
+.VehicleMaster .Inputfield label {
+    color: #646464;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.VehicleMaster .Inputfield input {
+    background-color: #e9ecef;
+    box-shadow: none;
+}
+
+.VehicleMaster .Inputfield select {
+    background-color: #e9ecef;
+    box-shadow: none;
+}
+
+
+/* RightSide */
+
+.VehicleMaster .RightSide {
+    border: none;
+}
+
+.VehicleMaster .RightSide h1 {
+    font-size: 16px;
+    background-color: #36304a;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 40px;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 10px;
+}
+
+.VehicleMaster .RightSide #dvRoute {
+    border: 1px solid #ccc;
+}
+
+.VehicleMaster .RightSide #dvRoute ul li a {
+    color: #878787;
+    font-size: 14px;
+}
+
+.VehicleMaster .RightSide #dvRoute .list-group-item {
+    border: none;
+}

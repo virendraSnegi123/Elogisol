@@ -1,0 +1,35 @@
+.OdometerMapping {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    padding: 2px;
+    height: 80vh;
+}
+
+.rigtside h1 {
+    font-size: 16px;
+    background-color: #36304a;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 36px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.dvVehicle ul li {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+}
+
+.dvVehicle ul li a {
+    color: #000000c4;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .OdometerMapping {
+        height: auto;
+    }
+}

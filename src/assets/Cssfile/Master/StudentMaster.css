@@ -1,0 +1,137 @@
+.StudentMaster {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    /* padding: 2px; */
+}
+
+.row .select-vendor {
+    padding-top: 0px;
+    padding-left: 4px;
+    padding-bottom: 0px;
+    padding-right: 18px;
+}
+
+.StudentMaster .search-bar button:active {
+    border: none;
+}
+
+.StudentMaster .search-bar img {
+    width: 28%;
+    height: auto;
+}
+
+.StudentMaster .student-heading {
+    background-color: #f7f7f7;
+    padding: 7px;
+    color: #505050;
+    font-size: 15px;
+    border-left: 5px solid #f85800;
+    box-shadow: 0 0px 3px 0 rgb(0 0 0 / 30%);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.StudentMaster .student-heading span.checkOff {
+    float: right;
+    font-size: 13px;
+}
+
+.StudentMaster .student-profile {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    background-color: #e8e8e8;
+}
+
+.StudentMaster .student-profile img {
+    width: 91px;
+    height: 85px;
+    border-radius: 50%;
+    border: 3px solid #f85800;
+    margin-top: 5px;
+}
+
+.StudentMaster .studenTable1 {
+    border: 1px solid #ccc;
+}
+
+.StudentMaster .studenTable1 tr th {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    background: #f7f7f7;
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+    width: 35%;
+    text-align: left;
+    color: #262626e3;
+}
+
+.StudentMaster .studenTable1 tr td {
+    background: #ffffff;
+    padding: 0.33rem;
+}
+
+.StudentMaster .studenTable1 tr td select,
+.StudentMaster .studenTable1 tr td input,
+.StudentMaster .studenTable1 tr td textarea {
+    word-wrap: normal;
+    padding: 5px;
+    background-color: #e9ecef;
+    opacity: 1;
+    border: 1px solid #afafaf70;
+    border-radius: 3px;
+    width: 100%;
+    color: gray;
+}
+
+.StudentMaster .rightside h6 {
+    font-size: 16px;
+    background-color: #ccd9ff;
+    padding: 7px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.StudentMaster .rightside h6 .checkOff {
+    float: right;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+    .StudentMaster .mobile-spacing {
+        padding-left: 2% !important;
+    }
+    .StudentMaster .leftside {
+        padding-right: 2% !important;
+    }
+    .StudentMaster .rightside {
+        padding-right: 2% !important;
+    }
+    .StudentMaster .search-bar .col-md-4 {
+        padding-left: 0px;
+    }
+    .StudentMaster .search-bar button {
+        margin-top: 10px;
+    }
+    .StudentMaster .studenTable1 {
+        margin-bottom: 2px;
+    }
+    #collegeinfo {
+        padding-right: 15px !important;
+    }
+    #studentinfo {
+        padding-left: 15px !important;
+    }
+    .Father-mother .col-md-6 {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+        margin-bottom: 10px;
+    }
+    .rightside {
+        padding-left: 15px !important;
+    }
+}

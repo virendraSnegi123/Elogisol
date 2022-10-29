@@ -1,0 +1,67 @@
+.OfflinePaymentUpdate {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    padding: 2px;
+    height: 80vh;
+}
+
+.OfflinePayRight {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    padding: 2px;
+    height: 80vh;
+}
+
+.OfflinePayRight select,
+.OfflinePayRight input,
+.OfflinePayRight textarea {
+    color: gray;
+}
+
+.OfflinePaymentUpdate button img {
+    width: 28%;
+    height: auto;
+}
+
+.OfflinePaymentUpdate .ContentPlaceHolder1_frmError {
+    height: 350px;
+}
+
+.remarks p {
+    color: red;
+    font-size: 12px;
+}
+
+.OfflinePayRight h5 {
+    background-color: #2a4564;
+    padding: 14px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .OfflinePaymentUpdate {
+        height: auto;
+    }
+    .OfflinePayRight {
+        height: auto;
+    }
+    .OfflinePaymentUpdate .ContentPlaceHolder1_frmError {
+        display: none;
+    }
+    .remarks p {
+        display: none;
+    }
+    .OfflinePaymentUpdate #crn {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .OfflinePaymentUpdate #searchbar {
+        margin-left: 0px !important;
+        margin-bottom: 10px !important;
+    }
+}

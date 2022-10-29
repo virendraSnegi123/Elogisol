@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.RouteMaster {
+    margin-top: 15px;
+    border: none;
+    padding: 2px;
+}
+
+.RouteMaster .LeftSide {
+    height: 80vh;
+}
+
+.RouteMaster .Inputfield label {
+    color: #000000e6;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.RouteMaster .Inputfield input {
+    background-color: #e9ecefb0;
+}
+
+.RouteMaster .Routetext span:nth-child(1) {
+    color: #0000008c;
+    font-weight: 500;
+}
+
+.RouteMaster .Routetext span:nth-child(2) {
+    color: blue;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+/* table */
+
+.RouteMaster .routetable {
+    height: 200px;
+    overflow: auto;
+}
+
+.RouteMaster .routetable::-webkit-scrollbar {
+    width: 12px;
+}
+
+.RouteMaster .routetable::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.253)
+}
+
+.RouteMaster .routetable::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.RouteMaster .routetable #tblReport thead tr th {
+    font-size: 13px;
+    background-color: #36304a;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    padding: 6px;
+    position: sticky;
+    top: 0;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.RouteMaster .routetable #tblReport tbody tr td {
+    font-size: 13px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 400;
+    padding: 6px;
+}
+
+.RouteMaster .routetable #tblReport tbody tr td input {
+    padding: 5px;
+    background: #d8dfe6;
+    border-radius: 3px;
+    border: 1px #c9c9c9 solid;
+}
+
+
+/* padding: 0rem; */
+
+
+/* RightSide */
+
+.RouteMaster .RightSide {
+    border: none;
+    margin-top: -12px;
+}
+
+.RouteMaster .RightSide h1 {
+    font-size: 16px;
+    background-color: #36304a;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 40px;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 10px;
+}
+
+.RouteMaster .RightSide #dvRoute ul li {
+    line-height: 0;
+}
+
+.RouteMaster .RightSide #dvRoute ul li a {
+    color: #878787;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    .RouteMaster .LeftSide {
+        height: 113vh;
+    }
+}

@@ -1,0 +1,77 @@
+.OnlinePaymentUpdate {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    padding: 2px;
+    height: 80vh;
+}
+
+.OnlinePaymentUpdate img {
+    width: fit-content;
+}
+
+.Onlinetable #StatusBlock {
+    height: 350px;
+    margin-left: 0px;
+}
+
+.OnlinePaymentUpdate .Repheader th {
+    background: #36304a;
+    position: sticky;
+    top: 0;
+    white-space: nowrap;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.OnlinePaymentUpdate .Repheader th,
+.OnlinePaymentUpdate tbody tr td {
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    height: 30px;
+    text-transform: capitalize;
+}
+
+
+/* .ContentPlaceHolder1_frmError {
+    height: 350px;
+} */
+
+.remarks p {
+    color: red;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .OnlinePaymentUpdat {
+        height: auto;
+    }
+    .remarks p {
+        display: none;
+    }
+    .OnlinePaymentUpdate #tblReport {
+        width: 138%;
+    }
+    .Onlinetable #StatusBlock {
+        height: 350px;
+        margin-left: 0px;
+    }
+    .Onlinetable #StatusBlock::-webkit-scrollbar {
+        width: 20px;
+    }
+    .Onlinetable #StatusBlock::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: rgba(70, 70, 70, 0.253)
+    }
+    .Onlinetable #StatusBlock::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.171);
+    }
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+}
+
+.StoppageMaster {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    padding: 0px 2px 0px 11px;
+    height: 80vh;
+}
+
+.StoppageMaster .Leftstoppage label {
+    color: #000000bf;
+    font-weight: 500;
+}
+
+.StoppageMaster .StoppageList {
+    width: 25%;
+    height: 360px;
+    overflow: auto;
+}
+
+.StoppageMaster .StoppageList::-webkit-scrollbar {
+    width: 12px;
+}
+
+.StoppageMaster .StoppageList::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.253)
+}
+
+.StoppageMaster .StoppageList::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.StoppageMaster .StoppageList h1 {
+    font-size: 16px;
+    background-color: #36304a;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 36px;
+    border-radius: 5px 5px 0px 0px;
+    position: sticky;
+    top: 0;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.StoppageMaster .StoppageList tr {
+    text-align: left;
+}
+
+.StoppageMaster .StoppageList tr a {
+    color: rgb(0 0 0 / 94%);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) {
+    .StoppageMaster .StoppageList {
+        margin-top: 20px;
+        width: 100%;
+    }
+}

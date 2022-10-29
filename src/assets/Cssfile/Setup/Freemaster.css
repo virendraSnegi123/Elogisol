@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+}
+
+.Freemaster {
+    height: 80vh;
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    padding: 2px;
+}
+
+.Freemaster .row .col-md-4 label {
+    color: #646464;
+    font-weight: 500;
+}
+
+.Freemaster .row .col-md-4 input::placeholder {
+    color: #0000004b;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Freemaster .Feelist h1 {
+    font-size: 16px;
+    background-color: #36304a;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 36px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.Freemaster .Feelist tr {
+    text-align: left;
+}
+
+.Freemaster .Feelist tr a {
+    color: rgb(0 0 0 / 83%);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) {
+    .Freemaster .Feelist {
+        margin-top: 20px;
+    }
+}

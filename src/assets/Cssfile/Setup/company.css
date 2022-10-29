@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+}
+
+.companyform {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    padding: 2px;
+}
+
+.companyform .row .form-group label {
+    color: #000000bf;
+    font-weight: 500;
+}
+
+.companyform .row .form-group input {
+    box-shadow: none;
+    border: #c7c7c7 1px solid;
+}
+
+.companyform .row .form-group textarea {
+    box-shadow: none;
+    border: #c7c7c7 1px solid;
+}
+
+.companyform .row .form-group select {
+    box-shadow: none;
+    border: #c7c7c7 1px solid;
+}
+
+.companyform .row .form-group input::placeholder {
+    color: #0000004b;
+    font-weight: bold;
+}
+
+.companyform .row .form-group textarea::placeholder {
+    color: #0000004b;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 770px) {
+    .companyform {
+        width: 100vw;
+        margin-top: 10px;
+    }
+    .text-left {
+        display: none;
+    }
+}

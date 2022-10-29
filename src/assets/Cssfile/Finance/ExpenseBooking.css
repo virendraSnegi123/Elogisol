@@ -1,0 +1,30 @@
+.ExpenseBooking {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    padding: 2px;
+    height: 80vh;
+}
+
+.ExpenseBooking select {
+    font-size: 15px;
+    border: solid 1px #b7b7b7;
+    padding: 5px;
+    border-radius: 5px;
+    color: gray;
+}
+
+.ExpenseBooking button img {
+    width: 28%;
+    height: auto;
+}
+
+.ExpenseBooking .vehiclenum input {
+    background-color: #e9ecef;
+}
+
+@media only screen and (max-width: 768px) {
+    .ExpenseBooking {
+        height: auto;
+    }
+}

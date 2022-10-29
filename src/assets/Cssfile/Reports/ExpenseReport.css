@@ -1,0 +1,41 @@
+.ExpenseReport .mobile-spacing {
+    width: 100%;
+}
+
+.ExpenseReport {
+    margin-top: 2px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    /* padding: 2px; */
+    height: 80vh;
+}
+
+.ExpenseReport .col-sm-1.col-form-label {
+    max-width: 100px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 20px !important;
+}
+
+.ExpenseReport .col-sm-2 {
+    padding-right: 6px !important;
+}
+
+.ExpenseReport select {
+    width: 100%;
+    padding: 6px;
+    border: #b0b0b0b5 1px solid;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .ExpenseReport {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .ExpenseReport .col-form-label {
+        margin-left: 18px;
+    }
+}

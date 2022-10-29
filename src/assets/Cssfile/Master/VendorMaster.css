@@ -1,0 +1,54 @@
+.VehicleMaster {
+    margin-top: 15px;
+    border: none;
+    padding: 2px;
+}
+
+.VehicleMaster .Inputfield {
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    height: 80vh;
+}
+
+.VendorMasterTable h1 {
+    margin-right: -7px;
+    font-size: 16px;
+    background-color: #36304a;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 36px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.VendorMasterTable tr {
+    text-align: left;
+}
+
+.VendorMasterTable tr a {
+    color: rgb(0 0 0 / 65%);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.VehicleMaster input {
+    background-color: #e9ecef;
+}
+
+.VehicleMaster select {
+    background-color: #e9ecef;
+}
+
+.VehicleMaster textarea {
+    background-color: #e9ecef;
+}
+
+@media only screen and (max-width: 768px) {
+    .VehicleMaster .Inputfield {
+        height: auto;
+    }
+    .VendorMasterTable {
+        padding-left: 0%;
+    }
+}

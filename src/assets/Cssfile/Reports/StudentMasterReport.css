@@ -1,0 +1,89 @@
+.StudentMasterReport {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+    border: none;
+    padding: 2px;
+    height: 80vh;
+}
+
+.StudentMasterReport select {
+    word-wrap: normal;
+    width: 100%;
+    padding: 5px;
+    border: solid 1px #dddddd;
+    border-radius: 5px;
+}
+
+#studentrepostFromdate {
+    margin-left: 23px !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+#tblReport {
+    width: 138%;
+}
+
+.StudentMasterReport .table-responsive {
+    height: 230px;
+    margin-left: 0px;
+}
+
+.StudentMasterReport .table-responsive::-webkit-scrollbar {
+    width: 12px;
+}
+
+.StudentMasterReport .table-responsive::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.253)
+}
+
+.StudentMasterReport .table-responsive::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.StudentMasterReport #tblReport .Repheader th {
+    background: #36304a;
+    position: sticky;
+    top: 0;
+    white-space: nowrap;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.StudentMasterReport #tblReport .Repheader th,
+.StudentMasterReport #tblReport tbody tr td {
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    height: 30px;
+    text-transform: capitalize;
+}
+
+.StudentMasterReport input,
+.StudentMasterReport select {
+    color: #5a5a5a;
+    font-size: 14px;
+    background: #e9ecef;
+}
+
+@media only screen and (max-width: 768px) {
+    .StudentMasterReport {
+        height: auto;
+    }
+    #studentrepostFromdate,
+    #studentrepostFromdate2,
+    #studentrepostFromdate3,
+    #studentrepostFromdate4 {
+        margin-left: 0px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
